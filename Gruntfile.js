@@ -119,7 +119,7 @@ module.exports = function(grunt) {
   grunt.registerTask(
     'default',
     [
-      'scsslint',
+      // 'scsslint',
       'sass',
       'concat',
       'postcss'
