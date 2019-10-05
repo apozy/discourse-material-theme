@@ -909,7 +909,7 @@ section {
     align-items: center;
     display: flex;
     min-height: ($card-avatar-size + $card-padding-y);
-    padding: $card-padding-y ($card-padding-x / 2) 0 ($card-avatar-size + $card-inner-spacer-y + $card-padding-y);
+    padding: 0;
   }
 
   .post-info {
