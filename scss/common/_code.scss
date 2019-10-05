@@ -5,6 +5,13 @@ samp {
   font-family: $font-family-monospace;
 }
 
+p, li, pre {
+  code {
+    background-color: color-chooser($code-bg-dark, $code-bg-light);
+    color: color-chooser($code-color-dark, $code-color-light);
+  }
+}
+
 code {
   background-color: color-chooser($code-bg-dark, $code-bg-light);
   border-radius: $code-border-radius;

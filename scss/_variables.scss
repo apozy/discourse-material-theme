@@ -123,25 +123,25 @@ $transition-timing-function: cubic-bezier(.4, 0, .2, 1) !default;
 
 // Basics - Typography - Font family
 
-$font-family-monospace:  'Roboto Mono', Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace !default;
-$font-family-sans-serif: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif !default;
-$font-family-serif:      'Roboto Slab', Georgia, 'Times New Roman', Times, serif !default;
+$font-family-monospace:  Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace !default;
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif !default;
+$font-family-serif:      Georgia, 'Times New Roman', Times, serif !default;
 
 
 
 // Basics - Typography - Font size
 
-$font-size-base:      14px !default;
+$font-size-base:      16px !default;
 
-$font-size-display-1: 112px !default;
-$font-size-display-2: 56px !default;
-$font-size-h1:        45px !default;
-$font-size-h2:        34px !default;
-$font-size-h3:        24px !default;
-$font-size-h4:        20px !default;
-$font-size-h5:        16px !default;
-$font-size-h6:        14px !default;
-$font-size-body:      14px !default;
+$font-size-display-1: 114px !default;
+$font-size-display-2: 58px !default;
+$font-size-h1:        47px !default;
+$font-size-h2:        36px !default;
+$font-size-h3:        26px !default;
+$font-size-h4:        22px !default;
+$font-size-h5:        18px !default;
+$font-size-h6:        16px !default;
+$font-size-body:      16px !default;
 $font-size-caption:   12px !default;
 
 $font-size-sm:     percentage($font-size-caption / $font-size-body) !default;
@@ -312,7 +312,7 @@ $dropdown-padding-y:           $spacer !default;
 // Header
 
 $header-box-shadow:         $shadow-4dp !default;
-$header-height:             56px !default;
+$header-height:             72px !default;
 $header-item-overlay-dark:  $white-divider !default;
 $header-item-overlay-light: $black-divider !default;
 $header-inner-spacer-x:     $spacer-x-inline !default;
@@ -341,7 +341,7 @@ $menu-panel-padding-y:          $spacer-lg !default;
 $admin-breakpoint:     700px !default;
 $admin-nav-max-height: 500px !default;
 $admin-nav-width:      20% !default;
-$topic-body-width:     700px !default;
+$topic-body-width:     900px !default;
 
 
 
