@@ -344,8 +344,6 @@ section {
   margin-bottom: 0;
 }
 
-.
-
 .post-actions {
   align-items: center;
   color: color-chooser($white-secondary, $black-secondary);
@@ -412,7 +410,7 @@ section {
 
 .post-notice {
   @media (min-width: 1250px) {
-    width: $topic-body-width;
+    max-width: $topic-body-width;
   }
 }
 
