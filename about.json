@@ -24,6 +24,18 @@
       "danger": "d32f2f",
       "success": "2e7b32",
       "love": "e91e63"
+    },
+    "Apozy Purple": {
+      "primary": "2e2935",
+      "secondary": "f3f5f7",
+      "tertiary": "3e70c6",
+      "quaternary": "5f479f",
+      "header_background": "5f479f",
+      "header_primary": "ffffff",
+      "highlight": "ecec70",
+      "danger": "db4828",
+      "success": "518751",
+      "love": "fa6c8d"
     }
   },
   "license_url": "https://github.com/Daemonite/discourse-material-theme/blob/master/LICENSE",
