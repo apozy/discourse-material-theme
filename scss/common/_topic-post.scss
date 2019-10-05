@@ -910,6 +910,7 @@ section {
     display: flex;
     min-height: ($card-avatar-size + $card-padding-y);
     margin-top: -5px;
+    padding: 0 1em 0.25em 1em;
     // padding: $card-padding-y ($card-padding-x / 2) 0 ($card-avatar-size + $card-inner-spacer-y + $card-padding-y);
   }
 
