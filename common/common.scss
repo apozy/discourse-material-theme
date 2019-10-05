@@ -6352,7 +6352,6 @@ tbody:last-child tr:last-child, thead:last-child tr:last-child {
   margin-bottom: 16px;
   max-width: 100%;
   width: 100%;
-  border-radius: 4px;
 }
 .topic-list tbody td,
 .topic-list tbody th {
@@ -7418,6 +7417,12 @@ section.post-menu-area {
   float: none;
   margin-bottom: 16px;
   padding: 0;
+  border-radius: 32px;
+}
+@media (max-width: 1250px) {
+  .topic-body {
+    width: 900px;
+  }
 }
 @media (max-width: 870px) {
   .topic-body {
