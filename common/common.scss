@@ -7419,7 +7419,7 @@ section.post-menu-area {
   padding: 0;
   border-radius: 32px;
 }
-@media (max-width: 1250px) {
+@media (min-width: 1250px) {
   .topic-body {
     width: 900px;
   }

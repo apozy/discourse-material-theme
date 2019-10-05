@@ -551,7 +551,7 @@ section {
   padding: 0;
   border-radius: $border-radius-lg;
 
-  @media (max-width: 1250px) {
+  @media (min-width: 1250px) {
     width: $topic-body-width;
   }
 
